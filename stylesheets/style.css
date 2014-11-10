@@ -1,0 +1,589 @@
+body {
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+li.signup a, a:visited {
+    color:#6775db;
+}
+
+li.login a, a:visited {
+    color:#ffe562;
+}
+
+p {
+    font-size: 18px;
+    color:#636363;
+}
+div#header {
+    background-color: #6775db;
+    background-image: url('../images/main-image.png');
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    min-height: 650px;
+    border-bottom: 4px solid #ffe562;
+}
+
+header {
+    margin-top: 20px;
+}
+header h1 {
+    margin:0;
+    display: inline;
+}
+header nav {
+    display:inline;
+}
+header nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+}
+header nav ul li {
+    display: inline;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+header nav ul li.login {
+    color: #ffe562;
+    border: 1px solid #ffe562;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+}
+
+header nav ul li.login:hover {
+    color: #ffe562;
+    background: #4954a4; 
+    border: 1px solid #ffe562;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+}
+
+header nav ul li.signup {
+    color: #6775db;
+    background: #ffe562;
+    border-radius: 15px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 13px 30px;
+}
+
+header nav ul li.signup:hover {
+    color: #6775db;
+    background: #fad001;
+    border-radius: 15px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 13px 30px;
+}
+
+div#marketing a {
+    color:#ffe562;
+    background: transparent;
+    border: 1px solid #ffe562;
+    border-radius: 15px;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 30px;
+    margin-top: 50px;
+}
+
+div#marketing a:hover {
+    color:#6675db;
+    background:#ffe562;
+    border: 1px solid #ffe562;
+    border-radius: 15px;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 30px;
+    margin-top: 50px;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+
+div#marketing {
+    text-align: center;
+    margin-top: 50px;
+}
+div#marketing h1 {
+    font-weight: 700;
+    color:#fff;
+    font-size: 70px;
+    margin:0;
+    letter-spacing: -0.05em;
+    line-height: .9;
+    margin-top: -25px;
+}
+div#marketing h2 {
+    color:#fff;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Beginnig of "What is Jottly? Section */
+
+div#What_is img {
+    width: 120%;
+    margin-top: -30px;
+    margin-left: 80px;
+    margin-bottom: 70px;
+    text-align: right;
+}
+div#What_is {
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    min-height: 450px;
+}
+div#What_is img {
+    margin-bottom: -6px;
+}
+div#What_is h4 {
+    text-align: left;
+    margin-bottom: -120px;
+}
+div#What_is p {
+    line-height: 1.5;
+    margin-top: 105px;
+    font-size: 18px;
+    color: #636363;
+    text-align: left;
+}
+
+div#What_is form button.learn_more {
+    text-align: center;
+    color: #6775db;
+    background: transparent;
+    border: 1px solid #6775db;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 12px 30px;
+    margin-top: 30px;
+    margin-left: 73px;
+}
+
+div#What_is form button.learn_more:hover {
+    text-align: center;
+    color: #fff;
+    background: #6775db;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 12px 30px;
+}
+
+div#What_is h4, div#benefits h4, div#testimonial h4, div#pricing h4 {
+    font-size: 40px;
+    color: #6775db;
+    line-height: 4;
+    margin-top:20px;
+}
+
+/* Beginnig of "What Makes Jottly Special?" Section */
+
+
+div#benefits {
+    text-align: center;
+    padding:60px 0;
+    margin-bottom: 0px;
+}
+div#benefits h4 {
+    text-align: center;
+    line-height: 3.5;
+}
+
+div#benefits {
+    background-color: #fff;
+    background-image: url('../images/grey-pencil-bg.png');
+    background-size: cover;
+    background-position: center center;
+    border-top: 3px solid #f4f3f3;
+    border-bottom: 3px solid #f4f3f3;
+    margin: 0;
+    min-height: 550px; 
+}
+div#benefits h3 {
+    color:#5e5e5e;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+div#pencilicon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div#cloudicon img {
+    margin-top: 30px;
+    margin-left: -130px;
+}
+
+div#cloudicon h3 {
+    margin-left: -130px;
+}
+
+div#cloudicon p {
+    margin-left: -130px;
+    padding: 10px 70px 10px 70px;
+}
+
+div#pencilicon p {
+    padding: 10px 5px 10px 5px;
+}
+
+div#handicon img {
+    margin-right: -130px;
+}
+
+div#handicon h3 {
+    margin-right: -130px;
+}
+
+div#handicon p {
+    margin-right: -130px;
+    padding: 10px 70px 10px 70px;
+}
+
+div#pencilicon img {
+    margin-top: 39px;
+}
+
+div#cloudicon form button.learn_more {
+    text-align: center;
+    color: #6775db;
+    background: transparent;
+    border: 1px solid #6775db;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: -130px;
+    padding: 12px 12px;
+}
+
+div#cloudicon form button.learn_more:hover {
+    text-align: center;
+    color: #fff;
+    background: #6775db;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+
+div#pencilicon form button.learn_more {
+    text-align: center;
+    color: #6775db;
+    background: transparent;
+    border: 1px solid #6775db;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 12px 12px;
+}
+
+div#pencilicon form button.learn_more:hover {
+    text-align: center;
+    color: #fff;
+    background: #6775db;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+div#handicon form button.learn_more {
+    text-align: center;
+    color: #6775db;
+    background: transparent;
+    border: 1px solid #6775db;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: -130px;
+    padding: 12px 12px;
+}
+
+div#handicon form button.learn_more:hover {
+    text-align: center;
+    color: #fff;
+    background: #6775db;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: -130px;
+    padding: 12px 12px;
+}
+
+/* Beginnig of "What People are Saying" Section */
+
+
+div#testimonial {
+    background-color: #fff;
+    background-image: url('../images/testimonial-bg.png');
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 80px;
+    margin-top: -45px;
+    margin-bottom: -80px;
+    min-height: 500px; 
+}
+
+div#testimonial h4 {
+    line-height: 3;
+    text-align: left;
+    margin-top: 45px;
+    padding-bottom: 70px;
+}
+div#testimonial h5 {
+    text-align: center;
+    color: #6775db;
+    font-family: 'lato 600', Helvetica, sans-serif; 
+    font-size: 18px;
+}
+div#testimonial p {
+    text-align: center;
+    font-family: 'lato 300', Helvetica, sans-serif; 
+    font-size: 18px;
+    margin: -70px 0px 0px -30px;
+
+}
+
+div#testimonial h6 {
+    color: #5e5e5e;
+    text-align: center;
+    font-family: 'lato 300', Helvetica, sans-serif; 
+    font-size: 18px;
+}
+
+div#john img {
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 30px;
+    border: 4px solid #ffe562;
+    border-radius: 100px;
+}
+div#quotemark1 p {
+    line-height: 1.3;
+    font-size: 30px;
+    font-style: italic;
+    color: #787878;
+}
+div#quotemark1 h5 {
+    line-height: 1;
+    text-align: left;
+    font-family: 'Pacifico', Helvetica, sans-serif; 
+    font-size: 150px;
+}
+div#quotemark2 h5 {
+    line-height: 1;
+    text-align: right;
+    font-family: 'Pacifico', Helvetica, sans-serif; 
+    font-size: 150px;
+    
+}
+
+/* Beginnig of "What does it cost?" Section */
+
+div#pricing ul {
+    background-color: #eaeaea;
+    box-shadow: 0px 5px 8px 1px #eeeeee;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+    font-family: 'lato 300', Helvetica;
+    font-size: 18px;
+    padding: 20px 10px 20px 10px;
+    margin-top: -5px;
+}
+div#pricing {
+    text-align: center;
+    padding:150px 0;
+}
+div#pricing ul li a {
+    color:#fff;
+    background-color:#6775db;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding:8px 15px 11px;   
+}
+
+div#pricing ul li a:hover {
+    color:#6675db;
+    background-color:transparent;
+    border: 2px solid #6675db;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding:8px 15px 11px;
+}
+
+div#pricing h4 {
+    margin-top: -50px;
+    text-align: center;
+}
+
+div#pricing h3 {
+    font-size: 24px;
+    color: #fff;
+    background-color: #6775db;
+    border-top: 4px solid #fff;
+    border-bottom: 0px;
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0px 5px 8px 1px #eeeeee;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+div#pricing li {
+    padding-bottom: 12px;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Beginnig of Closing CTA Section */
+
+div#email {
+    background-color: #6775db;
+    background-image: url('../images/purple-pencil-bg.png');
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    border-top: 4px solid #ffe562;
+    min-height: 250px;
+    text-align: center;
+    padding:120px 0 20px;
+}
+div#email h5 {
+    line-height: 2;
+    font-size: 55px;
+    font-weight: 900;
+    color:#fff;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+div#email h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff;
+    margin-bottom: 20px;
+}
+div#email form {
+    margin:0 0 15px 0;
+    padding:0;
+}
+div#email form input {
+    display: inline;
+    width:400px;
+    border-radius: 4px;
+    border: 3px solid #ffe562;
+    opacity: 0.73;
+    padding: 12px;
+}
+
+div#email form button {
+    color:#ffe562;
+    background: transparent;
+    border-radius: 15px;
+    border: 1px solid #ffe562;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 30px;
+    margin-top: 20px;
+}
+
+div#email form button:hover {
+    color:#6775db;
+    background: #ffe562;
+    border-radius: 15px;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 30px;
+    margin-top: 20px;
+}
+
+div#footer {
+    font-family: 'lato 300', Helvetica, Arial, sans-serif; 
+    background-color: #4954a4;
+    color:#fff;
+}
+div#footer nav {
+    margin:40px 0 0;
+}
+
+div#footer li:hover {
+    color: #ffe562;
+    border-bottom: 1px solid #ffe562;
+}
+
+div#footer img {
+    width: 20%;
+    margin:10px 0 0;
+    padding: 0;
+}
+div#footer nav ul {
+    list-style-type: none;
+}
+div#footer nav ul li {
+    display:inline;
+    padding: 30px 30px 15px 30px;
+
+}
+div#footer nav ul li a {
+    line-height: 2px;
+    color:#fff;
+    text-decoration: none;
+}
+.right {
+    text-align: right;
+}
