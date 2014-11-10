@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Jottly | Note-Taking Simplified</title>
+	<meta name="description" content="Note-taking simplified.">
+	<meta name="author" content="mike.horton">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+    <link href='http://fonts.googleapis.com/css?family=lato:300,400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://www.greensock.com/gsap-js/'
+
+    <!-- JavaScript -->
+
+    <script>
+        function alertMe(){
+            alert("Thank You for Your Interest in Jottly!");
+    }
+    </script>
+    <script src="path/to/js/gsap/TweenMax.min.js"></script>
+    <script src="path/to/js/jquery.min.js"></script>
+<!-- should be replaced with minified version when development is finished -->
+    <script src="path/to/js/jquery.scrollmagic.js"></script>
+<!-- should be removed when development is finished -->
+    <script src="path/to/js/jquery.scrollmagic.debug.js"></script>
+    <script>
+        var controller = new ScrollMagic();
+        var scene = new ScrollScene({
+         triggerElement: '#trigger1', // point of execution
+        duration: 400 // pin the element for a total of 400px
+        })
+        .setPin('#pinned-element1'); // the element we want to pin
+
+// Add Scene to ScrollMagic Controller
+        controller.addScene(scene);
+    </script>
+
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<header class="sixteen columns">
+			<h1 id="logo" class="logo">
+				<a href="#"><img src="images/logo.png" /></a>
+			</h1>
+			<nav>
+                <ul>
+                    <li class="login"><a href="www.loginpagehere.com">Log in</a></li>
+                    <li class="signup"><a href="www.signuppagehere.com">Sign up</a></li>
+                 </ul>
+             </nav>
+		</header>
+		<div id="marketing" class="ten columns offset-by-three">
+			<h1>Write it, share it, store it.</h1>
+			<h2>Jott.ly is the simplest way to take and share notes with colleagues, friends and family.</h2>
+            <a href="www.starttrialhere.com" onclick="alertMe()">Start a free trial</a>
+        </div>
+    </div>
+</div>
+
+<!--Beginnig of "What is Jottly?"" Section--> 
+
+<div id="What_is">
+    <div class="container">
+        <h4>What is Jott.ly?</h4>
+        <div class="six columns">
+            <p>Jott.ly is a web based application that simplifies collaboration and idea-sharing between users. Easily create documents, edit in real-time, and store your notes to share with colleagues</p>
+            <form action="">
+                <button class="learn_more" type="submit">Learn more</button>
+            </form>
+        </div>
+        <div class="ten columns">
+            <img src="images/screengrab2.png" />
+        </div>
+    </div>
+</div>
+
+<!--Beginnig of "What Makes Jottly Special?" Section--> 
+
+<div id="benefits"> 
+    <div class="container">
+        <h4>What makes Jott.ly special?</h4>
+	   <div id= "cloudicon" class="one-third column">
+		  <img src="images/cloud-icon.png"/>
+		  <h3>The Cloud</h3>
+            <p>Our secure cloud technology saves and stores your notes as you go.</p>
+            <form action="">
+                <button class="learn_more" type="submit">Check out THE CLOUD</button>
+            </form>
+        </div>
+        <div id="pencilicon" class="one-third column">
+    	   <img src="images/pencil-icon.png"/>
+    	   <h3>Collaboration</h3>
+             <p>Real-time editing allows for multiple users to work on projects together.</p>
+             <form action="">
+                <button class="learn_more" type="submit">How we work together</button>
+            </form>
+        </div>
+        <div id="handicon" class="one-third column">
+    	   <img src="images/hand-icon.png"/>
+    	   <h3>Simplicity</h3>
+             <p>Jott.ly’s intuitive design makes taking and sharing notes a breeze.</p>
+             <form action="">
+                <button class="learn_more" type="submit">Just how easy is it?</button>
+            </form>
+        </div>
+    </div>    
+</div>
+
+<!--Beginnig of "What People are Saying" Section-->
+
+<div id="testimonial">
+    <div class="container">
+        <h4>What they're saying.</h4>
+        <div class="six columns">
+            <div id="john">
+                <img src="images/joe.png" />
+            </div>
+            <h5>Joe Smith</h5>
+            <h6>  New York City, NY</h6>
+        </div>
+        <div class="ten columns">
+            <div id="quotemark1">
+                <h5>"</h5>
+                <p>Jottly is the greatest <br> 
+                    product ever made!</p>
+                <div id="quotemark2">
+                    <h5>"</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Beginnig of "What does it cost?" Section-->
+
+<div id="pricing" class="container">
+    <h4>What does it cost?</h4>
+    <div class="one-third column">
+        <h3>Individual Plan</h3>
+            <ul>
+                <li><strong style="font-size:55px; color:#6675db; padding-top: 15px;">$2</strong><em style="font-size:15px;"> per month</em></li>
+                <li><strong>2 GB</strong> of storage</li> 
+                <li>Ulimited members</li> 
+                <li>Unlimited notes</li>
+                <li style="padding-bottom:32px;">Real-time collaboration</li>
+                <li><a href="selectbusinessplanlinkhere"> Select this plan</a></li>
+            </ul>
+    </div>
+    <div id="businessplan" class="one-third column">
+        <h3>Small Business Plan</h3>
+            <ul>
+                <li><strong style="font-size:55px; color:#6675db; padding-top: 15px;">$5</strong><em style="font-size:15px;"> per month</em></li>
+                <li><strong>15 GB</strong> of storage</li> 
+                <li>Ulimited members</li> 
+                <li>Unlimited notes</li>
+                <li style="padding-bottom:32px;" >Real-time collaboration</li>
+                <li><a href="selectbusinessplanlinkhere"> Select this plan</a></li>
+            </ul>
+    </div>
+    <div class="one-third column">
+        <h3>Enterprise Plan</h3>
+            <ul>
+                <li><strong style="font-size:55px; color:#6675db; padding-top: 15px;">$8</strong><em style="font-size:15px;"> per month</em></li>
+                <li><strong>Unlimited GB</strong> of storage</li> 
+                <li>Ulimited members</li> 
+                <li>Unlimited notes</li>
+                <li style="padding-bottom:32px;">Real-time collaboration</li>
+                <li><a href="selectenterpriseplanlinkhere"> Select this plan</a></li>
+            </ul>
+    </div>
+</div>
+
+<!-- Beginnig of Closting CTA Section -->
+
+<div id="email">
+    <div class="container">
+        <div class="ten columns offset-by-three">
+        	<h5>Ready to try Jott.ly?</h5>
+            <h6>Enter your email address to get started today.</h6>
+            <form action="">
+            	<input placeholder="Enter Email Address" type="text"/>
+                <button type="submit">Start a free trial</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="container">
+        <div class="eight columns">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li> 
+                    <li><a href="#">About</a></li> 
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="eight columns right">
+            <h1 id="logo2" class="logo2">
+                <a href="#"><img src="images/logo.png" /></a>
+            </h1>
+        </div>
+    </div>
+</div>
+</body>
+</html>
