@@ -7,6 +7,11 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
+.toBeAnimated {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+}
+
 li.signup a, a:visited {
     color:#6775db;
 }
@@ -19,20 +24,29 @@ p {
     font-size: 18px;
     color:#636363;
 }
+
+#logo {
+    margin-top: -10px;
+    margin-left: -125px;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+
 div#header {
     background-color: #6775db;
-    background-image: url('../images/main-image.png');
+    background-image: url('../images/main-image2.png');
     background-size: cover;
     background-position: center center;
     margin: 0;
-    min-height: 650px;
-    border-bottom: 4px solid #ffe562;
+    min-height: 1050px;
+    border-bottom: 3px solid #ffe562; 
 }
 
 header {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 header h1 {
+    margin-top: -15px;
     margin:0;
     display: inline;
 }
@@ -43,6 +57,9 @@ header nav ul {
     float: right;
     list-style-type: none;
     margin-top: 15px;
+    margin-right: -250px;
+    animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
 }
 header nav ul li {
     display: inline;
@@ -105,6 +122,8 @@ div#marketing a {
     font-weight: 500;
     padding: 14px 30px;
     margin-top: 50px;
+    animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
 }
 
 div#marketing a:hover {
@@ -129,19 +148,24 @@ div#marketing {
     margin-top: 50px;
 }
 div#marketing h1 {
-    font-weight: 700;
+    font-weight: 400;
     color:#fff;
-    font-size: 70px;
+    font-size: 80px;
     margin:0;
     letter-spacing: -0.05em;
     line-height: .9;
-    margin-top: -25px;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
 }
 div#marketing h2 {
     color:#fff;
     font-size: 20px;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 30px;
+    animation-delay: 0.7s;
+    -webkit-animation-delay: 0.7s;
 }
 
 /* Beginnig of "What is Jottly? Section */
@@ -208,6 +232,14 @@ div#What_is h4, div#benefits h4, div#testimonial h4, div#pricing h4 {
     margin-top:20px;
 }
 
+.os-animation{
+  opacity: 1;
+}
+ 
+.os-animation.animated{
+    opacity: 0;
+}
+
 /* Beginnig of "What Makes Jottly Special?" Section */
 
 
@@ -245,8 +277,13 @@ div#pencilicon {
 div#cloudicon img {
     margin-top: 30px;
     margin-left: -130px;
+    opacity: .8;
 }
-
+div#cloudicon img:hover {
+    margin-top: 30px;
+    margin-left: -130px;
+    opacity: 1;
+}
 div#cloudicon h3 {
     margin-left: -130px;
 }
@@ -262,6 +299,11 @@ div#pencilicon p {
 
 div#handicon img {
     margin-right: -130px;
+    opacity: .8;
+}
+div#handicon img:hover {
+    margin-right: -130px;
+    opacity: 1;
 }
 
 div#handicon h3 {
@@ -275,6 +317,11 @@ div#handicon p {
 
 div#pencilicon img {
     margin-top: 39px;
+    opacity: .8;
+}
+div#pencilicon img:hover {
+    margin-top: 39px;
+    opacity: 1;
 }
 
 div#cloudicon form button.learn_more {
@@ -359,13 +406,13 @@ div#handicon form button.learn_more:hover {
 
 div#testimonial {
     background-color: #fff;
-    background-image: url('../images/testimonial-bg.png');
+    background-image: url('../images/testimonial-bg3.png');
     background-size: cover;
     background-position: center center;
     padding-bottom: 80px;
     margin-top: -45px;
     margin-bottom: -80px;
-    min-height: 500px; 
+    min-height: 700px; 
 }
 
 div#testimonial h4 {
@@ -373,18 +420,20 @@ div#testimonial h4 {
     text-align: left;
     margin-top: 45px;
     padding-bottom: 70px;
+    margin-left: -105px;
 }
 div#testimonial h5 {
     text-align: center;
     color: #6775db;
     font-family: 'lato 600', Helvetica, sans-serif; 
-    font-size: 18px;
+    font-size: 24px;
+    margin-left: -190px;
 }
 div#testimonial p {
     text-align: center;
     font-family: 'lato 300', Helvetica, sans-serif; 
     font-size: 18px;
-    margin: -70px 0px 0px -30px;
+    margin: -95px 0px 0px -30px; /* top, right, bottom, left */
 
 }
 
@@ -393,11 +442,12 @@ div#testimonial h6 {
     text-align: center;
     font-family: 'lato 300', Helvetica, sans-serif; 
     font-size: 18px;
+    margin-left: -190px;
 }
 
 div#john img {
     width: 50%;
-    margin-left: 80px;
+    margin-left: -25px;
     margin-top: 30px;
     border: 4px solid #ffe562;
     border-radius: 100px;
@@ -409,16 +459,19 @@ div#quotemark1 p {
     color: #787878;
 }
 div#quotemark1 h5 {
+    padding-top: 15px;
     line-height: 1;
     text-align: left;
     font-family: 'Pacifico', Helvetica, sans-serif; 
     font-size: 150px;
+    opacity: 0;
 }
 div#quotemark2 h5 {
     line-height: 1;
     text-align: right;
     font-family: 'Pacifico', Helvetica, sans-serif; 
     font-size: 150px;
+    opacity: 0;
     
 }
 
@@ -556,6 +609,7 @@ div#footer {
     font-family: 'lato 300', Helvetica, Arial, sans-serif; 
     background-color: #4954a4;
     color:#fff;
+    font-size: 16px;
 }
 div#footer nav {
     margin:40px 0 0;
@@ -563,7 +617,8 @@ div#footer nav {
 
 div#footer li:hover {
     color: #ffe562;
-    border-bottom: 1px solid #ffe562;
+    padding-bottom: -10px;
+    border-bottom: 2px solid #ffe562;
 }
 
 div#footer img {
