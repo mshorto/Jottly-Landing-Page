@@ -7,6 +7,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
+
 .toBeAnimated {
   -vendor-animation-duration: 3s;
   -vendor-animation-delay: 2s;
@@ -60,6 +61,7 @@ header nav ul {
     margin-right: -250px;
     animation-delay: 1.2s;
     -webkit-animation-delay: 1.2s;
+
 }
 header nav ul li {
     display: inline;
@@ -148,6 +150,7 @@ div#marketing {
     margin-top: 50px;
 }
 div#marketing h1 {
+
     font-weight: 400;
     color:#fff;
     font-size: 80px;
@@ -421,6 +424,7 @@ div#testimonial h4 {
     margin-top: 45px;
     padding-bottom: 70px;
     margin-left: -105px;
+
 }
 div#testimonial h5 {
     text-align: center;
